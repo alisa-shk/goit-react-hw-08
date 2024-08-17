@@ -1,0 +1,23 @@
+.list {
+    margin-top: 10px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px 16px;
+    min-width: 190px;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.btn {
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
