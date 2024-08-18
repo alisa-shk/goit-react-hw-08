@@ -1,0 +1,16 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome {
+    padding: 48px;
+    color: blueviolet;
+}
+
+.here {
+    color: rgb(159, 85, 228);
+}

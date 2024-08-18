@@ -1,0 +1,51 @@
+.form {
+    width: 360px;
+    border-radius: 8px;
+    border: 1px solid rgb(74, 119, 201);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.field {
+    font-size: 16px;
+    border: 1px solid rgb(74, 119, 201);
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.field::placeholder {
+    color: rgb(74, 119, 201);
+}
+
+.error {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+.btn {
+    padding: 8px;
+    border-radius: 8px;
+    color: rgb(34, 72, 143);
+    border: 1px solid rgb(74, 119, 201);
+    background-color: rgb(240, 245, 255);
+}
+
+.question {
+    color: rgb(74, 119, 201);
+    font-size: 20px;
+}
+
+.link {
+    color: rgb(34, 72, 143);
+}

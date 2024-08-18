@@ -1,12 +1,12 @@
 .list {
     margin-top: 10px;
     display: flex;
-    gap: 16px;
+    gap: 18px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 8px 16px;
+    border: 1px solid rgb(74, 119, 201);
+    border-radius: 8px;
+    padding: 16px 24px;
     min-width: 190px;
 }
 
@@ -16,8 +16,21 @@
     font-size: 14px;
 }
 
+.contact {
+    color: rgb(34, 72, 143);
+    font-size: 24px;
+}
+
+.contactNum {
+    color: rgb(34, 72, 143);
+    font-size: 18px;
+}
+
 .btn {
-    font-size: 12px;
-    border: 1px solid black;
-    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px;
+    border: 1px solid rgb(74, 119, 201);
+    border-radius: 8px;
+    background-color: rgb(240, 245, 255);
+    color: rgb(74, 119, 201);
 }

@@ -1,0 +1,40 @@
+.userMenu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 20px;
+
+}
+
+.greet {
+    color: rgb(34, 72, 143);
+    font-size: 28px;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: ;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid rgb(34, 72, 143);
+    color: rgb(74, 119, 201);
+    background-color: rgb(240, 249, 255);
+
+}
+/* 
+.nav {
+
+}
+
+.link {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(74, 119, 201);
+}
+
+.active {
+    color: rgb(34, 72, 143);
+    text-decoration: none;
+    font-weight: bold;
+} */

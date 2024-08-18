@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color:rgb(74, 119, 201);
+}
+
+.active {
+    color: rgb(34, 72, 143);
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,8 +1,8 @@
 .form {
-    width: 300px;
-    border-radius: 4px;
-    border: 1px solid black;
-    padding: 8px;
+    width: 360px;
+    border-radius: 8px;
+    border: 1px solid blueviolet;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -18,9 +18,9 @@
 
 .field {
     font-size: 16px;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 4px;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    padding: 12px;
 }
 
 .error {
@@ -30,9 +30,13 @@
 }
 
 .btn {
+    color: blueviolet;
     padding: 8px;
-    border-radius: 4px;
-    border: 1px solid darkgrey;
-    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    border: 1px solid blueviolet;
+    background-color: rgb(247, 238, 255);
+}
 
+.label {
+    color: blueviolet;
 }
