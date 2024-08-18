@@ -9,7 +9,6 @@ import { Link, Navigate } from 'react-router-dom';
 
 const LoginForm = () => {
     const dispatch = useDispatch();
-
     const initialValues = {
         email: "",
         password: "",
@@ -19,15 +18,12 @@ const LoginForm = () => {
     email: Yup.string().email("Invalid email").required("Required"),
     password: Yup.string().min(8, "Too Short!").max(50, "Too Long!").required("Required"),
 });
-    const isLoggedIn = useSelector(selectIsLoggedIn);
+
 
     const handleSubmit = (values, { resetForm }) => {
         dispatch(loginThunk(values));
         resetForm();
     };
-    if (isLoggedIn) {
-        return <Navigate to='/'/>
-    }
     return (
         <Formik 
             initialValues={initialValues}
